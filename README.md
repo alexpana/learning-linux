@@ -7,6 +7,7 @@
 - less
 - grep
 - ps
+- watch (runs a command periodically, showing the output fullscreen)
 
 ### Special files
 - /dev/kmsg
