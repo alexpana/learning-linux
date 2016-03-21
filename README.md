@@ -11,6 +11,9 @@
 ### Special files
 - /dev/kmsg
 
+### Other
+- xorg / X11
+
 ## Useful resources
 - TLDR man pages http://tldr-pages.github.io/
 - The Linux Documentation Project (TLDP) http://www.tldp.org/
