@@ -8,7 +8,8 @@
 - grep
 - ps
 - watch (runs a command periodically, showing the output fullscreen)
-
+- ln (hard links vs soft links)
+- 
 ### Special files
 - /dev/kmsg
 
