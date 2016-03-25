@@ -12,8 +12,11 @@
 - dd (copies the standard input to the standard output)
 
 ### Special files
-- /dev/kmsg
-- /dev/zero (provides as many null characters (ASCII NUL, 0x00) as are read from it)
+- `/dev/kmsg`
+- `/dev/null` accepts and discards all input; produces no output (always returns an end-of-file indication on a read)
+- `/dev/zero` accepts and discards all input; produces a continuous stream of NUL (zero value) bytes
+- `/dev/full` produces a continuous stream of NUL (zero value) bytes when read, and returns a "disk full" message when written to
+- `/dev/random` and `/dev/urandom` produce a variable-length stream of pseudo-random numbers.
 
 ### Other
 - xorg / X11
